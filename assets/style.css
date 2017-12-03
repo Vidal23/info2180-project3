@@ -1,0 +1,132 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+.container{
+    max-width: 840px;
+    margin: 1rem auto;
+
+}
+.wrapper{
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #aaa;
+    background-color: #fff;
+}
+#app{
+    padding: 1rem;
+    color: #444;
+}
+.input-group{
+    margin-bottom: 1rem;
+}
+label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+input[type=text],
+input[type=password],
+textarea,
+select,
+button{
+    padding: 0.4rem;
+    display: block;
+    width: 98%;
+
+}
+input[type=text],
+input[type=password],
+textarea{
+    border-radius: 3px;
+    border: 1px solid #aaa;
+}
+button{
+    display: block;
+    width: 50%;
+    background-color: #aaa;
+    color: #444;
+    border: none;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 3px;
+}
+.nav-item{
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
+table.messages a:hover{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: 700;
+}
+table.messages{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e9ecef;
+    margin-top: 1rem;
+}
+table.messages th,
+table.messages td{
+    border: 1px solid #aaa;
+    padding: .75rem;
+}
+table.messages th{
+    text-align: left;
+    border-bottom-width: 2px;
+    vertical-align: bottom;
+    font-weight: normal;
+}
+table.messages a{
+    font-size: 0.9rem;
+}
+
+.error{
+    text-align: center;
+    color: red;
+}
+.brand{
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+.message_body{
+    margin: 1rem 0;
+    border-left: 2px solid #9999ff;
+    padding-left: 4px;
+}
+.message_sender{
+    font-size: 0.9rem;
+}
+.message_date{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+.copyright{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #444;
+}
+#login_wrapper{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 1rem;
+}
+#login_wrapper button{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
